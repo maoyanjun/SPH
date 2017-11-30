@@ -1,0 +1,19 @@
+# vtk DataFile Version 2.0
+Domain limits for the case:dam_break_2D_demo
+ASCII
+DATASET POLYDATA
+POINTS        8 float
+        0.00000E+00  0.00000E+00  0.60000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.15000E+01  0.00000E+00  0.00000E+00  0.15000E+01  0.00000E+00  0.60000E+00
+        0.00000E+00  0.00000E+00  0.30000E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.60000E+00  0.00000E+00  0.00000E+00  0.60000E+00  0.00000E+00  0.30000E+00
+LINES        3       9
+        2         0         1
+        2         1         2
+        2         2         3
+POINT_DATA        8
+SCALARS dam_break_2D_demo float 1
+LOOKUP_TABLE mytable
+        0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000
+LOOKUP_TABLE mytable 3
+0.0 0.0 0.0 1.0
+0.0 0.0 1.0 1.0
+1.0 0.0 0.0 1.0
